@@ -5,10 +5,11 @@ import  {BookReducer} from './books/book.reducer'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppState } from './app.state';
-
+import { BookListComponent } from './book-list/book-list.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BookListComponent
   ],
   imports: [
     BrowserModule,
